@@ -65,6 +65,11 @@ from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
+# При ручном запуске workflow (workflow_dispatch) можно поставить галочку
+# "force_now" — тогда новая партия новостей соберётся сразу, не дожидаясь
+# DAILY_FETCH_HOUR_UTC. По расписанию (cron) эта переменная не задаётся,
+# так что автоматические запуски всегда работают по обычным правилам.
+FORCE_NOW = os.environ.get("FORCE_NOW", "").lower() == "true"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"  # самый дешёвый/быстрый текущий Claude
 
@@ -245,6 +250,28 @@ def fetch_og_image(article_url):
     return None
 
 
+# Цвета заглушки под каждую категорию (фон, текст — hex без "#") и короткая
+# ASCII/кириллическая подпись без эмодзи (эмодзи в URL генератора не нужны).
+PLACEHOLDER_STYLE = {
+    "🔓 Блокировки, VPN, приватность": ("7f1d1d", "ffffff", "VPN"),
+    "💻 IT-новости": ("1e3a8a", "ffffff", "IT News"),
+    "📱 Новинки техники и гаджеты": ("581c87", "ffffff", "Gadgets"),
+    "🇷🇺 Российские IT-новости": ("14532d", "ffffff", "Хабр"),
+    "💰 Крипта": ("78350f", "ffffff", "Crypto"),
+}
+PLACEHOLDER_DEFAULT_STYLE = ("1f2937", "ffffff", "无为 WuWei")
+
+
+def generate_placeholder_image(category):
+    """Последний, ГАРАНТИРОВАННЫЙ уровень: если ни в RSS, ни на странице
+    статьи не нашлось картинки, генерирует простую цветную заглушку с
+    подписью категории через бесплатный сервис placehold.co (без ключей,
+    работает по прямой ссылке). Так у поста ВСЕГДА будет картинка."""
+    from urllib.parse import quote
+    bg, fg, label = PLACEHOLDER_STYLE.get(category, PLACEHOLDER_DEFAULT_STYLE)
+    return f"https://placehold.co/1200x630/{bg}/{fg}?text={quote(label)}&font=roboto"
+
+
 def fetch_entries_for_feeds(feed_urls, cutoff, posted_links):
     entries = []
     for feed_url in feed_urls:
@@ -322,6 +349,8 @@ def fetch_all_categories():
             entry["reactions"] = fetch_reactions(entry["link"])
             if not entry.get("image"):  # в RSS картинки не было — пробуем со страницы
                 entry["image"] = fetch_og_image(entry["link"])
+            if not entry.get("image"):  # и там не нашлось — гарантированная заглушка
+                entry["image"] = generate_placeholder_image(category)
             result.setdefault(category, []).append(entry)
             total_selected += 1
 
@@ -856,9 +885,12 @@ def main():
 
     # Новый день (или очереди ещё не было) — собираем новую партию новостей,
     # но только в заданный час, чтобы не постить в случайное время суток.
+    # Исключение — принудительный ручной запуск (FORCE_NOW), для тестирования.
     if state is None or state.get("date") != today:
-        if now.hour != DAILY_FETCH_HOUR_UTC:
-            print(f"[INFO] Ждём {DAILY_FETCH_HOUR_UTC}:00 UTC для сбора новой партии новостей.")
+        if now.hour != DAILY_FETCH_HOUR_UTC and not FORCE_NOW:
+            print(f"[INFO] Ждём {DAILY_FETCH_HOUR_UTC}:00 UTC для сбора новой партии новостей "
+                  f"(сейчас {now.hour}:00 UTC). Для теста запустите workflow вручную "
+                  f"с галочкой force_now.")
             return
         new_state = build_new_queue()
         if new_state is None:
@@ -870,10 +902,11 @@ def main():
 
     # Публикуем максимум ОДНУ новость за запуск — остальные дождутся своего
     # времени в следующих запусках workflow (см. post_at у каждого элемента).
+    # FORCE_NOW игнорирует время ожидания — удобно для ручной проверки.
     for item in state["items"]:
         if item["posted"]:
             continue
-        if now < datetime.fromisoformat(item["post_at"]):
+        if now < datetime.fromisoformat(item["post_at"]) and not FORCE_NOW:
             continue
 
         try:
