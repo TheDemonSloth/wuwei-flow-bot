@@ -5,12 +5,15 @@ name: Daily Telegram News Post
 
 on:
   schedule:
-    # 09:00 по Москве = 06:00 UTC. Поменяйте под нужное время.
-    - cron: "0 6 * * *"
+    # Каждый час, в начале часа. Сам скрипт внутри решает, публиковать что-то
+    # в этот час или просто выйти без действий — расписание намеренно частое,
+    # чтобы новости выходили растянуто по дню (3-6 часов между постами), а не
+    # всё сразу пачкой раз в сутки.
+    - cron: "0 * * * *"
   workflow_dispatch: {}   # позволяет запускать вручную кнопкой "Run workflow" на GitHub
 
 permissions:
-  contents: write   # нужно, чтобы Action мог закоммитить обновлённый news_log.jsonl обратно
+  contents: write   # нужно, чтобы Action мог закоммитить news_log.jsonl и post_queue.json обратно
 
 jobs:
   post:
@@ -34,14 +37,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python post_news.py
 
-      - name: Save news log back to repo
+      - name: Save state back to repo
         run: |
-          if [ -n "$(git status --porcelain news_log.jsonl)" ]; then
+          if [ -n "$(git status --porcelain news_log.jsonl post_queue.json)" ]; then
             git config user.name "news-bot"
             git config user.email "news-bot@users.noreply.github.com"
-            git add news_log.jsonl
-            git commit -m "Update news log [skip ci]"
+            git add news_log.jsonl post_queue.json
+            git commit -m "Update posting state [skip ci]"
             git push
           else
-            echo "Лог не изменился, коммитить нечего."
+            echo "Ничего не изменилось, коммитить нечего."
           fi
