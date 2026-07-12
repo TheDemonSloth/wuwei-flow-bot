@@ -61,8 +61,16 @@ LOG_RETENTION_DAYS = 35
 # Сколько часов "свежести" новости считаем актуальными
 LOOKBACK_HOURS = 26
 
-# Сколько новостей максимум включать в один дайджест ИЗ КАЖДОЙ категории
-MAX_ITEMS_PER_CATEGORY = 3
+# Сколько новостей максимум брать "в кандидаты" ИЗ КАЖДОЙ категории — это ещё
+# не финальное число в посте, а пул, из которого потом выбирается TOTAL_MAX_ITEMS_PER_DAY
+# новостей суммарно по всем категориям (см. ниже).
+MAX_ITEMS_PER_CATEGORY = 2
+
+# Сколько новостей публиковать в дайджесте СУММАРНО по всем категориям вместе.
+# Отбор идёт по кругу (round-robin) — по одной новости из каждой категории по
+# очереди, пока не наберётся этот лимит — так в посте стараются быть представлены
+# разные темы, а не только та категория, где сегодня вышло больше всего статей.
+TOTAL_MAX_ITEMS_PER_DAY = 4
 
 # Проверять реакцию на Hacker News ИМЕЕТ СМЫСЛ только для крупных англоязычных
 # IT/tech-источников — там статьи реально попадают на HN и собирают обсуждение.
@@ -105,6 +113,13 @@ RSS_CATEGORIES = {
         "https://www.theverge.com/rss/index.xml",      # гаджеты, новые устройства
         "https://www.engadget.com/rss.xml",             # обзоры и анонсы техники
     ],
+    "🇷🇺 Российские IT-новости": [
+        "https://habr.com/ru/rss/all/",                 # крупнейший русскоязычный IT-ресурс.
+        # Уже на русском — переводить не нужно, работает даже без ANTHROPIC_API_KEY.
+    ],
+    "💰 Крипта": [
+        "https://cointelegraph.com/rss",                # одно из крупнейших крипто-изданий
+    ],
 }
 
 # Рубрика "в этот день в истории" — реальные события с Wikipedia (Wikimedia
@@ -138,7 +153,22 @@ MONTHLY_POLL_OPTIONS = [
 # ---------- ЛОГИКА ----------
 
 
-def fetch_entries_for_feeds(feed_urls, cutoff):
+def load_posted_links():
+    """Читает LOG_FILE и возвращает множество ссылок, которые уже публиковались
+    (за весь срок хранения лога, LOG_RETENTION_DAYS). Используется, чтобы не
+    постить одну и ту же новость повторно — например, при ручном перезапуске
+    workflow или если за сутки вышло мало новых статей."""
+    if not os.path.exists(LOG_FILE):
+        return set()
+    try:
+        with open(LOG_FILE, "r", encoding="utf-8") as f:
+            return {json.loads(line)["link"] for line in f if line.strip()}
+    except Exception as e:
+        print(f"[WARN] Не удалось прочитать лог для дедупликации: {e}")
+        return set()
+
+
+def fetch_entries_for_feeds(feed_urls, cutoff, posted_links):
     entries = []
     for feed_url in feed_urls:
         try:
@@ -157,6 +187,10 @@ def fetch_entries_for_feeds(feed_urls, cutoff):
 
             title = html.unescape(entry.get("title", "").strip())
             link = entry.get("link", "").strip()
+
+            if link in posted_links:  # уже публиковали — пропускаем
+                continue
+
             summary_raw = entry.get("summary", "") or entry.get("description", "")
             summary = html.unescape(_strip_html(summary_raw)).strip()
             summary = (summary[:180] + "…") if len(summary) > 180 else summary
@@ -176,18 +210,41 @@ def fetch_entries_for_feeds(feed_urls, cutoff):
 
 def fetch_all_categories():
     """Возвращает dict {категория: [новости]}, пропуская пустые категории.
-    К каждой новости добавляет поле "reactions" — dict с реальной реакцией
-    по каждому найденному источнику (Hacker News, Reddit). Источник опускается,
-    если проверка для него не имеет смысла для этого домена или обсуждение
-    не нашлось."""
+    Новости, которые уже публиковались раньше (есть в news_log.jsonl), сюда
+    не попадают — см. load_posted_links(). Итоговое число новостей в дайджесте
+    ограничено TOTAL_MAX_ITEMS_PER_DAY суммарно по всем категориям — отбор идёт
+    по кругу (round-robin), чтобы разные темы были представлены равномерно,
+    а не только та категория, где сегодня вышло больше всего статей.
+    К каждой оставшейся новости добавляет поле "reactions" — dict с реальной
+    реакцией по каждому найденному источнику (Hacker News, Reddit). Источник
+    опускается, если проверка для него не имеет смысла для этого домена или
+    обсуждение не нашлось."""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-    result = {}
+    posted_links = load_posted_links()
+
+    candidates = {}
     for category, feed_urls in RSS_CATEGORIES.items():
-        entries = fetch_entries_for_feeds(feed_urls, cutoff)
-        for e in entries:
-            e["reactions"] = fetch_reactions(e["link"])
+        entries = fetch_entries_for_feeds(feed_urls, cutoff, posted_links)
         if entries:
-            result[category] = entries
+            candidates[category] = entries
+
+    # Round-robin: по одной новости из каждой категории по очереди,
+    # пока не наберём общий лимит или не кончатся кандидаты во всех категориях.
+    result = {}
+    queues = {cat: list(entries) for cat, entries in candidates.items()}
+    total_selected = 0
+    while total_selected < TOTAL_MAX_ITEMS_PER_DAY and any(queues.values()):
+        for category in list(RSS_CATEGORIES.keys()):
+            if total_selected >= TOTAL_MAX_ITEMS_PER_DAY:
+                break
+            queue = queues.get(category)
+            if not queue:
+                continue
+            entry = queue.pop(0)
+            entry["reactions"] = fetch_reactions(entry["link"])
+            result.setdefault(category, []).append(entry)
+            total_selected += 1
+
     return result
 
 
