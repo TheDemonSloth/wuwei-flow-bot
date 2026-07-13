@@ -35,7 +35,7 @@
       "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Памятник kubelet, Kubernetes != CRI</b>\nУ обычной ноды Kubernetes жёсткий потолок в 110 подов (формально настраиваемый kubelet-флаг --max-pods, но поднимать его руками не рекомендуется даже апстримом: упирается в размер …\n<a href=\"https://habr.com/ru/articles/1058526/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1058526\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
       "post_at": "2026-07-13T18:59:36.179144+00:00",
-      "posted": false
+      "posted": true
     },
     {
       "category": "💰 Крипта",
