@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-13",
+  "items": [
+    {
+      "category": "💻 IT-новости",
+      "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+      "title": "US and allies warn of Russian critical infrastructure attacks",
+      "log_title": "US and allies warn of Russian critical infrastructure attacks",
+      "source": "BleepingComputer",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/07/13/Russian_hacker.jpg",
+      "caption": "<b>💻 IT-новости</b>\n<b>US and allies warn of Russian critical infrastructure attacks</b>\nCybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured router…\n<a href=\"https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/\">Читать →</a> · <i>BleepingComputer</i>",
+      "reactions": {},
+      "post_at": "2026-07-13T10:48:20.009087+00:00",
+      "posted": true
+    },
+    {
+      "category": "📱 Новинки техники и гаджеты",
+      "link": "https://www.theverge.com/gadgets/963759/whatcable-usb-c-cable-tester-app-mac",
+      "title": "This free Mac app reveals the truth about your mystery USB-C cables",
+      "log_title": "This free Mac app reveals the truth about your mystery USB-C cables",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/331A1872.jpg?quality=90&amp;strip=all&amp;crop=8%2C24.423035219674%2C85%2C66.754173314461&amp;w=1200",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>This free Mac app reveals the truth about your mystery USB-C cables</b>\nNearly three years ago, I showed you an awesome $8 cable tester that quickly tells you if your USB-C cable is likely fast, slow, powerful, or weak. Sadly, that gadget got discontin…\n<a href=\"https://www.theverge.com/gadgets/963759/whatcable-usb-c-cable-tester-app-mac\">Читать →</a> · <i>The Verge</i>",
+      "reactions": {},
+      "post_at": "2026-07-13T15:29:39.933853+00:00",
+      "posted": false
+    },
+    {
+      "category": "🇷🇺 Российские IT-новости",
+      "link": "https://habr.com/ru/articles/1058526/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1058526",
+      "title": "Памятник kubelet, Kubernetes != CRI",
+      "log_title": "Памятник kubelet, Kubernetes != CRI",
+      "source": "Все публикации подряд на Хабре",
+      "image": "https://habr.com/share/publication/1058526/1486914d0bde58324fc6712f3d0c7aaf/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Памятник kubelet, Kubernetes != CRI</b>\nУ обычной ноды Kubernetes жёсткий потолок в 110 подов (формально настраиваемый kubelet-флаг --max-pods, но поднимать его руками не рекомендуется даже апстримом: упирается в размер …\n<a href=\"https://habr.com/ru/articles/1058526/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1058526\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "reactions": {},
+      "post_at": "2026-07-13T18:59:36.179144+00:00",
+      "posted": false
+    },
+    {
+      "category": "💰 Крипта",
+      "link": "https://cointelegraph.com/news/sbi-stablecoin-lending-service-3-yield-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Japan’s SBI to launch yen stablecoin lending with 3% yield",
+      "log_title": "Japan’s SBI to launch yen stablecoin lending with 3% yield",
+      "source": "Cointelegraph.com News",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/japan-what-is-the-best-japanese-word-for-crypto-currency.jpg",
+      "caption": "<b>💰 Крипта</b>\n<b>Japan’s SBI to launch yen stablecoin lending with 3% yield</b>\nSBI VC Trade will open JPYSC lending applications on July 16, offering an initial 3% annual rate for a 12-week term without deposit insurance.\n<a href=\"https://cointelegraph.com/news/sbi-stablecoin-lending-service-3-yield-japan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
+      "reactions": {},
+      "post_at": "2026-07-13T22:26:52.652051+00:00",
+      "posted": false
+    }
+  ],
+  "history_posted": false,
+  "footer_posted": false,
+  "monthly_sent": false
+}
