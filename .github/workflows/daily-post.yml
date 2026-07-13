@@ -5,12 +5,18 @@ name: Daily Telegram News Post
 
 on:
   schedule:
-    # Каждый час, в начале часа. Сам скрипт внутри решает, публиковать что-то
-    # в этот час или просто выйти без действий — расписание намеренно частое,
-    # чтобы новости выходили растянуто по дню (3-6 часов между постами), а не
-    # всё сразу пачкой раз в сутки.
-    - cron: "0 * * * *"
-  workflow_dispatch: {}   # позволяет запускать вручную кнопкой "Run workflow" на GitHub
+    # Каждый час, но НЕ в начале часа (0-я минута) — это момент пиковой
+    # нагрузки на шедулер GitHub Actions, такие задачи часто задерживаются
+    # или пропускаются. 17-я минута — обычная практика для более надёжного
+    # срабатывания по расписанию.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      force_now:
+        description: "Собрать новую партию новостей прямо сейчас, не дожидаясь 6:00 UTC (только для ручного теста)"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # нужно, чтобы Action мог закоммитить news_log.jsonl и post_queue.json обратно
@@ -35,6 +41,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_NOW: ${{ inputs.force_now }}
         run: python post_news.py
 
       - name: Save state back to repo
