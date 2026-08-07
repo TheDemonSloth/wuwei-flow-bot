@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-07",
   "items": [
     {
-      "category": "💻 IT-новости",
-      "link": "https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
-      "title": "Inside the London hacker house taking a stand against founder burnout",
-      "log_title": "Inside the London hacker house taking a stand against founder burnout",
-      "source": "TechCrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/LIFT-tour-1.jpg?resize=1200,909",
-      "caption": "<b>💻 IT-новости</b>\n<b>Inside the London hacker house taking a stand against founder burnout</b>\nHow one founder house is betting work-life balance can beat burnout .\n<a href=\"https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/\">Читать →</a> · <i>TechCrunch</i>",
+      "category": "🔓 Блокировки, VPN, приватность",
+      "link": "https://therecord.media/cyberattack-north-carolina-ports",
+      "title": "Cyberattack on North Carolina Ports ‘contained’ as Coast Guard, state officials investigate",
+      "log_title": "Cyberattack on North Carolina Ports ‘contained’ as Coast Guard, state officials investigate",
+      "source": "The Record from Recorded Future News",
+      "image": "http://cms.therecord.media/uploads/wilmington_port_2_9e7b93c10e.jpg",
+      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Cyberattack on North Carolina Ports ‘contained’ as Coast Guard, state officials investigate</b>\nNorth Carolina Ports is recovering from a cyberattack after its IT system was “hacked by an outside actor or group,” requiring a switch to manual processing of operations.\n<a href=\"https://therecord.media/cyberattack-north-carolina-ports\">Читать →</a> · <i>The Record from Recorded Future News</i>",
       "reactions": {},
-      "post_at": "2026-08-02T06:47:50.833952+00:00",
-      "posted": true
+      "post_at": "2026-08-07T06:16:13.951944+00:00",
+      "posted": false
+    },
+    {
+      "category": "💻 IT-новости",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+      "log_title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+      "source": "BleepingComputer",
+      "image": "https://www.bleepstatic.com/content/hl-images/2023/03/24/ChatGPT.jpg",
+      "caption": "<b>💻 IT-новости</b>\n<b>OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it</b>\nOpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]\n<a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/\">Читать →</a> · <i>BleepingComputer</i>",
+      "reactions": {},
+      "post_at": "2026-08-07T09:24:52.058851+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
-      "title": "Pixel 11 specs and price leak with no surprises",
-      "log_title": "Pixel 11 specs and price leak with no surprises",
-      "source": "The Verge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/videoframe_16661.png?quality=90&amp;strip=all&amp;crop=0,3.4249563699826,100,93.150087260035",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Pixel 11 specs and price leak with no surprises</b>\nAndroid Headlines claims to have the specs and price for the entire Pixel 11 lineup. What the site shared basically lines up with everything else that we&#x27;ve heard in the lead-up to…\n<a href=\"https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak\">Читать →</a> · <i>The Verge</i>",
+      "link": "https://www.engadget.com/2232202/meta-additional-567-million-fine-new-mexico-child-safety-case/",
+      "title": "Court orders Meta to pay an additional $567 million in New Mexico child safety case",
+      "log_title": "Court orders Meta to pay an additional $567 million in New Mexico child safety case",
+      "source": "Engadget - Technology News & Expert Reviews",
+      "image": "https://www.engadget.com/img/gallery/meta-additional-567-million-fine-new-mexico-child-safety-case/l-intro-1786082724.jpg",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Court orders Meta to pay an additional $567 million in New Mexico child safety case</b>\nA judge has ruled that Meta is a public nuisance and has to pay fine that will go towards funding state programs.\n<a href=\"https://www.engadget.com/2232202/meta-additional-567-million-fine-new-mexico-child-safety-case/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
       "reactions": {},
-      "post_at": "2026-08-02T12:37:19.037767+00:00",
-      "posted": true
+      "post_at": "2026-08-07T13:29:22.429855+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1065690/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065690",
-      "title": "Rider и базы данных: неочевидные возможности IDE, которые экономят время",
-      "log_title": "Rider и базы данных: неочевидные возможности IDE, которые экономят время",
+      "link": "https://habr.com/ru/companies/habr_rutube/articles/1067696/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1067696",
+      "title": "Планирование четвёртого поколения: почему списки дел не работают",
+      "log_title": "Планирование четвёртого поколения: почему списки дел не работают",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1065690/8befe7d60edfbee9271f9c000325a9f6/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Rider и базы данных: неочевидные возможности IDE, которые экономят время</b>\nБольшинство разработчиков привыкли работать с базами данных через специализированные инструменты: кто-то сидит в SQL Server Management Studio (SSMS), кто-то в DBeaver или PgAdmin. …\n<a href=\"https://habr.com/ru/articles/1065690/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065690\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1067696/67fba91a27698d666eff70d5c6ac7a5c/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Планирование четвёртого поколения: почему списки дел не работают</b>\nЛет десять я пытался привести свои дела в порядок и всё это время наступал на одни и те же грабли. Заводил борды с задачами в Notion, они бодро наполнялись первые пару недель, пото…\n<a href=\"https://habr.com/ru/companies/habr_rutube/articles/1067696/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1067696\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-08-02T18:25:04.770333+00:00",
-      "posted": true
-    },
-    {
-      "category": "💰 Крипта",
-      "link": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "Onchain, in court: What happened in crypto legal news this week",
-      "log_title": "Onchain, in court: What happened in crypto legal news this week",
-      "source": "Cointelegraph.com News",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance.jpg",
-      "caption": "<b>💰 Крипта</b>\n<b>Onchain, in court: What happened in crypto legal news this week</b>\nA case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trad…\n<a href=\"https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
-      "reactions": {},
-      "post_at": "2026-08-02T23:26:50.817452+00:00",
-      "posted": true
+      "post_at": "2026-08-07T18:05:48.239118+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
