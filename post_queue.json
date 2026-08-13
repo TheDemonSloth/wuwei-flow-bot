@@ -47,10 +47,10 @@
       "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Как устроены модули по нейросетям в курсах Яндекс Практикума</b>\nПривет! Это команда Яндекс Практикума. Почти во всех наших курсах для начинающих появились модули по нейросетям — в них студенты учатся работать с ИИ и применять его в своих новых …\n<a href=\"https://habr.com/ru/companies/yandex_praktikum/articles/1067970/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1067970\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
       "post_at": "2026-08-13T18:54:20.716018+00:00",
-      "posted": false
+      "posted": true
     }
   ],
-  "history_posted": false,
-  "footer_posted": false,
+  "history_posted": true,
+  "footer_posted": true,
   "monthly_sent": false
 }
