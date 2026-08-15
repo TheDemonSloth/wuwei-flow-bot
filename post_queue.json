@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "items": [
     {
       "category": "🔓 Блокировки, VPN, приватность",
-      "link": "https://therecord.media/flock-safety-audit-assistance-police-departments",
-      "title": "Flock tightens privacy controls amid scandals over officer abuse",
-      "log_title": "Flock tightens privacy controls amid scandals over officer abuse",
+      "link": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
+      "title": "Investigation of banking hack leads to arrests in Germany, Brazil",
+      "log_title": "Investigation of banking hack leads to arrests in Germany, Brazil",
       "source": "The Record from Recorded Future News",
-      "image": "http://cms.therecord.media/uploads/flock_safety_alpr_9b07a4b10a.jpg",
-      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Flock tightens privacy controls amid scandals over officer abuse</b>\nAll Flock Safety customers will be required to adopt its &quot;Audit Assistance&quot; feature for tracking abnormal uses, and the company says it will hold license plate data for only seven …\n<a href=\"https://therecord.media/flock-safety-audit-assistance-police-departments\">Читать →</a> · <i>The Record from Recorded Future News</i>",
+      "image": "http://cms.therecord.media/uploads/F26sw19_XEAE_8utu_8295845b86.jpg",
+      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Investigation of banking hack leads to arrests in Germany, Brazil</b>\nGermany’s federal police agency, the BKA, said three suspects were picked up in Europe and charged with fraud, and Brazil’s federal police said four others were arrested on similar…\n<a href=\"https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil\">Читать →</a> · <i>The Record from Recorded Future News</i>",
       "reactions": {},
-      "post_at": "2026-08-14T06:40:55.048700+00:00",
-      "posted": true
+      "post_at": "2026-08-15T06:55:41.292587+00:00",
+      "posted": false
     },
     {
       "category": "💻 IT-новости",
-      "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-      "log_title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+      "title": "How Anthropic plans to watermark Claude's AI-generated text",
+      "log_title": "How Anthropic plans to watermark Claude's AI-generated text",
       "source": "BleepingComputer",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/05/29/apple.jpg",
-      "caption": "<b>💻 IT-новости</b>\n<b>Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks</b>\nYou&#x27;re not alone if you just received an &quot;Apple Threat Notification&quot; saying it detected a &quot;mercenary spyware attack targeted at your iPhone.&quot; [...]\n<a href=\"https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/\">Читать →</a> · <i>BleepingComputer</i>",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
+      "caption": "<b>💻 IT-новости</b>\n<b>How Anthropic plans to watermark Claude&#x27;s AI-generated text</b>\nIt could soon become easier to identify AI-generated content, even if it&#x27;s not the usual &quot;It&#x27;s Not X, it&#x27;s Y&quot; type of post you&#x27;d come across on LinkedIn and other socials. [...]\n<a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/\">Читать →</a> · <i>BleepingComputer</i>",
       "reactions": {},
-      "post_at": "2026-08-14T11:15:24.411564+00:00",
-      "posted": true
+      "post_at": "2026-08-15T11:11:08.697511+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.engadget.com/2236830/trump-slaps-100-percent-tariff-on-heavy-and-sensitive-drones/",
-      "title": "Trump slaps a 100 percent tariff on heavy and 'sensitive' drones",
-      "log_title": "Trump slaps a 100 percent tariff on heavy and 'sensitive' drones",
+      "link": "https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/",
+      "title": "Waymo receives permission to offer rides in Sacramento and San Diego",
+      "log_title": "Waymo receives permission to offer rides in Sacramento and San Diego",
       "source": "Engadget - Technology News & Expert Reviews",
-      "image": "https://www.engadget.com/img/gallery/trump-slaps-a-100-percent-tariff-on-heavy-and-sensitive-drones/l-intro-1786687847.jpg",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Trump slaps a 100 percent tariff on heavy and &#x27;sensitive&#x27; drones</b>\nPresident Trump has imposed tariffs up to 100 percent on drones that are &quot;particularly sensitive&quot; for national security.\n<a href=\"https://www.engadget.com/2236830/trump-slaps-100-percent-tariff-on-heavy-and-sensitive-drones/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
+      "image": "https://www.engadget.com/img/gallery/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/l-intro-1786746703.jpg",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Waymo receives permission to offer rides in Sacramento and San Diego</b>\nThe company will also be able to expand its fleet across more of the San Francisco Bay Area and Los Angeles.\n<a href=\"https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
       "reactions": {},
-      "post_at": "2026-08-14T14:30:10.925637+00:00",
-      "posted": true
+      "post_at": "2026-08-15T15:42:37.374509+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1070366/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070366",
-      "title": "GLM-5.3: Z.ai выпустил новую модель",
-      "log_title": "GLM-5.3: Z.ai выпустил новую модель",
+      "link": "https://habr.com/ru/articles/1065810/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065810",
+      "title": "Спустя 5 лет я снова пишу Всерос — часть 1",
+      "log_title": "Спустя 5 лет я снова пишу Всерос — часть 1",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1070366/f728e124d4141d21d36276f4e359dc49/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>GLM-5.3: Z.ai выпустил новую модель</b>\n14 августа 2026 года компания Z.ai (бывшая Zhipu AI, Пекин) официально представила GLM-5.3 - новую версию своей флагманской линейки языковых моделей GLM-5. Анонс сопровождается сло…\n<a href=\"https://habr.com/ru/articles/1070366/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070366\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1065810/9b91b783c181b390a0137e6cae8b61e0/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Спустя 5 лет я снова пишу Всерос — часть 1</b>\nПривет, Хабр! На связи финалист ICPC и гроссмейстер codeforces MachineSolution. В прошлой своей статье я писал о том, как подготовиться к соревнованию. Но что делать, если время по…\n<a href=\"https://habr.com/ru/articles/1065810/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065810\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-08-14T19:47:01.278914+00:00",
-      "posted": true
+      "post_at": "2026-08-15T21:01:13.247787+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
