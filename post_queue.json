@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "items": [
     {
-      "category": "🔓 Блокировки, VPN, приватность",
-      "link": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
-      "title": "Investigation of banking hack leads to arrests in Germany, Brazil",
-      "log_title": "Investigation of banking hack leads to arrests in Germany, Brazil",
-      "source": "The Record from Recorded Future News",
-      "image": "http://cms.therecord.media/uploads/F26sw19_XEAE_8utu_8295845b86.jpg",
-      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Investigation of banking hack leads to arrests in Germany, Brazil</b>\nGermany’s federal police agency, the BKA, said three suspects were picked up in Europe and charged with fraud, and Brazil’s federal police said four others were arrested on similar…\n<a href=\"https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil\">Читать →</a> · <i>The Record from Recorded Future News</i>",
-      "reactions": {},
-      "post_at": "2026-08-15T06:55:41.292587+00:00",
-      "posted": true
-    },
-    {
       "category": "💻 IT-новости",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-      "title": "How Anthropic plans to watermark Claude's AI-generated text",
-      "log_title": "How Anthropic plans to watermark Claude's AI-generated text",
-      "source": "BleepingComputer",
-      "image": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
-      "caption": "<b>💻 IT-новости</b>\n<b>How Anthropic plans to watermark Claude&#x27;s AI-generated text</b>\nIt could soon become easier to identify AI-generated content, even if it&#x27;s not the usual &quot;It&#x27;s Not X, it&#x27;s Y&quot; type of post you&#x27;d come across on LinkedIn and other socials. [...]\n<a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/\">Читать →</a> · <i>BleepingComputer</i>",
+      "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "log_title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+      "caption": "<b>💻 IT-новости</b>\n<b>Woman claims her stepfather used Grok to transform childhood photo into explicit imagery</b>\nThe woman claimed that AI tools are &quot;taking everyday life and turning it into child sexual abuse.&quot;\n<a href=\"https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/\">Читать →</a> · <i>TechCrunch</i>",
       "reactions": {},
-      "post_at": "2026-08-15T11:11:08.697511+00:00",
-      "posted": true
+      "post_at": "2026-08-16T06:56:57.295132+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/",
-      "title": "Waymo receives permission to offer rides in Sacramento and San Diego",
-      "log_title": "Waymo receives permission to offer rides in Sacramento and San Diego",
-      "source": "Engadget - Technology News & Expert Reviews",
-      "image": "https://www.engadget.com/img/gallery/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/l-intro-1786746703.jpg",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Waymo receives permission to offer rides in Sacramento and San Diego</b>\nThe company will also be able to expand its fleet across more of the San Francisco Bay Area and Los Angeles.\n<a href=\"https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
+      "link": "https://www.theverge.com/gadgets/980448/polaroid-go-second-generation-film-pack-bundle-deal-sale",
+      "title": "Polaroid’s tiny instant camera is $72 and includes a free pack of film",
+      "log_title": "Polaroid’s tiny instant camera is $72 and includes a free pack of film",
+      "source": "The Verge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/Polaroid-Go-Generation-2.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Polaroid’s tiny instant camera is $72 and includes a free pack of film</b>\nSmartphone cameras are convenient, but they lack the charm of analog instant cameras. If you’re trying to relive the nostalgia of waiting for an instant photo to develop, Amazon is…\n<a href=\"https://www.theverge.com/gadgets/980448/polaroid-go-second-generation-film-pack-bundle-deal-sale\">Читать →</a> · <i>The Verge</i>",
       "reactions": {},
-      "post_at": "2026-08-15T15:42:37.374509+00:00",
-      "posted": true
+      "post_at": "2026-08-16T11:41:34.560369+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1065810/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065810",
-      "title": "Спустя 5 лет я снова пишу Всерос — часть 1",
-      "log_title": "Спустя 5 лет я снова пишу Всерос — часть 1",
+      "link": "https://habr.com/ru/articles/1070872/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070872",
+      "title": "10 сайтов, где можно бесплатно учиться на курсах лучших университетов мира",
+      "log_title": "10 сайтов, где можно бесплатно учиться на курсах лучших университетов мира",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1065810/9b91b783c181b390a0137e6cae8b61e0/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Спустя 5 лет я снова пишу Всерос — часть 1</b>\nПривет, Хабр! На связи финалист ICPC и гроссмейстер codeforces MachineSolution. В прошлой своей статье я писал о том, как подготовиться к соревнованию. Но что делать, если время по…\n<a href=\"https://habr.com/ru/articles/1065810/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1065810\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1070872/16cdedebd0c85ffddfa2296427ae5c43/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>10 сайтов, где можно бесплатно учиться на курсах лучших университетов мира</b>\nНе обязательно поступать в Harvard, Stanford или MIT, чтобы учиться по материалам этих университетов.Собрала 10 платформ и университетских ресурсов, где можно найти бесплатные онла…\n<a href=\"https://habr.com/ru/articles/1070872/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1070872\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-08-15T21:01:13.247787+00:00",
-      "posted": true
+      "post_at": "2026-08-16T16:10:04.515263+00:00",
+      "posted": false
+    },
+    {
+      "category": "💰 Крипта",
+      "link": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+      "log_title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+      "source": "Cointelegraph.com News",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.jpg",
+      "caption": "<b>💰 Крипта</b>\n<b>Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup</b>\nThe additions come as Bybit’s TradFi perpetuals lineup grows to more than 200 products spanning equities, ETFs, commodities, indices and private companies.\n<a href=\"https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
+      "reactions": {},
+      "post_at": "2026-08-16T21:46:28.088320+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
