@@ -47,10 +47,10 @@
       "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Реинкарнация проекта через cursor</b>\nВ далеком 2010 году я решил вступить в партию GameDev ибо на рынке было глухо средь космических стратегий. Знаменитый СтарКвейк на стратегию никак не тянул, в сети главенствовал Ог…\n<a href=\"https://habr.com/ru/articles/1073004/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073004\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
       "post_at": "2026-08-22T20:09:16.478396+00:00",
-      "posted": false
+      "posted": true
     }
   ],
-  "history_posted": false,
-  "footer_posted": false,
+  "history_posted": true,
+  "footer_posted": true,
   "monthly_sent": false
 }
