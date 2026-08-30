@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-30",
   "items": [
     {
       "category": "💻 IT-новости",
-      "link": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
-      "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
-      "log_title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
-      "source": "TechCrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/08/flipkart-minutes.jpg?resize=1200,800",
-      "caption": "<b>💻 IT-новости</b>\n<b>Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders</b>\nFlipkart&#x27;s quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.\n<a href=\"https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/\">Читать →</a> · <i>TechCrunch</i>",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "log_title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "source": "BleepingComputer",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png",
+      "caption": "<b>💻 IT-новости</b>\n<b>Anthropic is cutting Claude Code&#x27;s current weekly limits by 17%</b>\nAnthropic is permanently increasing Claude Code&#x27;s standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it&#x27;s not as good as it sounds. [...]\n<a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/\">Читать →</a> · <i>BleepingComputer</i>",
       "reactions": {},
-      "post_at": "2026-08-23T06:58:47.476712+00:00",
-      "posted": true
+      "post_at": "2026-08-30T06:39:33.372599+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.engadget.com/2240138/if-waymo-cars-are-level-4-automation-what-is-level-5/",
-      "title": "If Waymo cars are Level 4 automation, what does it take to be a Level 5?",
-      "log_title": "If Waymo cars are Level 4 automation, what does it take to be a Level 5?",
+      "link": "https://www.engadget.com/2242769/android-auto-not-working-check-first/",
+      "title": "Android Auto not working? Here's what to check first",
+      "log_title": "Android Auto not working? Here's what to check first",
       "source": "Engadget - Technology News & Expert Reviews",
-      "image": "https://www.engadget.com/img/gallery/if-waymo-cars-are-level-4-automation-what-does-it-take-to-be-a-level-5/l-intro-1786657077.jpg",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>If Waymo cars are Level 4 automation, what does it take to be a Level 5?</b>\nWe break down the different autonomous driving levels, and why Level 5 is so hard to achieve.\n<a href=\"https://www.engadget.com/2240138/if-waymo-cars-are-level-4-automation-what-is-level-5/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
+      "image": "https://www.engadget.com/img/gallery/android-auto-not-working-heres-what-to-check-first/l-intro-1787158524.jpg",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Android Auto not working? Here&#x27;s what to check first</b>\nChances are there&#x27;s a connection issue between your phone and car if Android auto isn&#x27;t working.\n<a href=\"https://www.engadget.com/2242769/android-auto-not-working-check-first/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
       "reactions": {},
-      "post_at": "2026-08-23T10:37:02.118792+00:00",
-      "posted": true
+      "post_at": "2026-08-30T11:11:16.096054+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1073392/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073392",
-      "title": "[Перевод] Больше свободы агентам — жёстче проверки: линтинг React 19 на ESLint 10",
-      "log_title": "[Перевод] Больше свободы агентам — жёстче проверки: линтинг React 19 на ESLint 10",
+      "link": "https://habr.com/ru/articles/1076266/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1076266",
+      "title": "Эволюция таблички в отчёте: от сводной Excel к полной картине строительного проекта",
+      "log_title": "Эволюция таблички в отчёте: от сводной Excel к полной картине строительного проекта",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1073392/437e4e2f0ad48447458a0f729f5455bd/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>[Перевод] Больше свободы агентам — жёстче проверки: линтинг React 19 на ESLint 10</b>\nЧем больше автономии я даю ИИ-агентам, тем больше требований к коду превращаю в механические проверки. Когда eslint-plugin-react сломался на ESLint 10, я собрал продолжение для Rea…\n<a href=\"https://habr.com/ru/articles/1073392/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073392\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1076266/9b0a8436024bcbe4f7edb871cd5d3178/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Эволюция таблички в отчёте: от сводной Excel к полной картине строительного проекта</b>\nТот, кто готовится к квартальному комитету, меньше всего хочет слышать адресованный лично вопрос: «Что изменилось в деньгах после твоего управления?» или в духе: «Какой эффект личн…\n<a href=\"https://habr.com/ru/articles/1076266/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1076266\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-08-23T16:21:04.430126+00:00",
-      "posted": true
+      "post_at": "2026-08-30T16:26:25.379772+00:00",
+      "posted": false
     },
     {
       "category": "💰 Крипта",
-      "link": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
-      "log_title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+      "link": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Polygon discloses security flaws fixed in recent hard forks",
+      "log_title": "Polygon discloses security flaws fixed in recent hard forks",
       "source": "Cointelegraph.com News",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/defi-lending-vaults-live-in-micas-blind-spot-but-brussels-may-be-about-to-close-it.jpg",
-      "caption": "<b>💰 Крипта</b>\n<b>MiCA is coming for DeFi vaults, but regulation will be difficult</b>\nBrussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.\n<a href=\"https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M17JHBKVPG032T0G1E4PGVX3/hi-quadrigacx-ceo-died-what-next.png",
+      "caption": "<b>💰 Крипта</b>\n<b>Polygon discloses security flaws fixed in recent hard forks</b>\nThe vulnerabilities posed denial-of-service and validator resource risks but were patched before Polygon publicly disclosed them.\n<a href=\"https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
       "reactions": {},
-      "post_at": "2026-08-23T20:22:43.730139+00:00",
-      "posted": true
+      "post_at": "2026-08-30T20:39:18.113757+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
