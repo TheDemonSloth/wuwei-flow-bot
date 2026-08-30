@@ -47,10 +47,10 @@
       "caption": "<b>💰 Крипта</b>\n<b>Polygon discloses security flaws fixed in recent hard forks</b>\nThe vulnerabilities posed denial-of-service and validator resource risks but were patched before Polygon publicly disclosed them.\n<a href=\"https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
       "reactions": {},
       "post_at": "2026-08-30T20:39:18.113757+00:00",
-      "posted": false
+      "posted": true
     }
   ],
-  "history_posted": false,
-  "footer_posted": false,
+  "history_posted": true,
+  "footer_posted": true,
   "monthly_sent": false
 }
