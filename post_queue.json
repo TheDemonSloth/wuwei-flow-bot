@@ -1,56 +1,56 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-09-14",
   "items": [
     {
-      "category": "💻 IT-новости",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-      "log_title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-      "source": "BleepingComputer",
-      "image": "https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png",
-      "caption": "<b>💻 IT-новости</b>\n<b>Anthropic is cutting Claude Code&#x27;s current weekly limits by 17%</b>\nAnthropic is permanently increasing Claude Code&#x27;s standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it&#x27;s not as good as it sounds. [...]\n<a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/\">Читать →</a> · <i>BleepingComputer</i>",
+      "category": "🔓 Блокировки, VPN, приватность",
+      "link": "https://therecord.media/nsa-reorganization-five-mission-centers",
+      "title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
+      "log_title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
+      "source": "The Record from Recorded Future News",
+      "image": "http://cms.therecord.media/uploads/9646631_b214aa9c7c.jpg",
+      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Thorough reorganization at NSA will create five &#x27;mission centers,&#x27; including cyber and AI</b>\nThe largest electronic spy agency in the world is reorganizing. And fast.\n<a href=\"https://therecord.media/nsa-reorganization-five-mission-centers\">Читать →</a> · <i>The Record from Recorded Future News</i>",
       "reactions": {},
-      "post_at": "2026-08-30T06:39:33.372599+00:00",
-      "posted": true
+      "post_at": "2026-09-14T06:14:50.180143+00:00",
+      "posted": false
+    },
+    {
+      "category": "💻 IT-новости",
+      "link": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
+      "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+      "log_title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+      "source": "Ars Technica",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-930111236-500x500.jpeg",
+      "caption": "<b>💻 IT-новости</b>\n<b>Unvaccinated Pennsylvania woman died of measles complications, coroner says</b>\nThe 40-year-old unvaccinated woman reportedly had underlying health conditions.\n<a href=\"https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/\">Читать →</a> · <i>Ars Technica</i>",
+      "reactions": {},
+      "post_at": "2026-09-14T11:26:02.605299+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.engadget.com/2242769/android-auto-not-working-check-first/",
-      "title": "Android Auto not working? Here's what to check first",
-      "log_title": "Android Auto not working? Here's what to check first",
+      "link": "https://www.engadget.com/2252867/usb-c-vs-magsafe-best-macbook-charging-option/",
+      "title": "MagSafe vs. USB-C: Which is better for charging your MacBook?",
+      "log_title": "MagSafe vs. USB-C: Which is better for charging your MacBook?",
       "source": "Engadget - Technology News & Expert Reviews",
-      "image": "https://www.engadget.com/img/gallery/android-auto-not-working-heres-what-to-check-first/l-intro-1787158524.jpg",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Android Auto not working? Here&#x27;s what to check first</b>\nChances are there&#x27;s a connection issue between your phone and car if Android auto isn&#x27;t working.\n<a href=\"https://www.engadget.com/2242769/android-auto-not-working-check-first/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
+      "image": "https://www.engadget.com/img/gallery/magsafe-vs-usb-c-which-is-better-for-charging-your-macbook/l-intro-1788880873.jpg",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>MagSafe vs. USB-C: Which is better for charging your MacBook?</b>\nModern MacBooks can use two different types of cables to charge, but is USB-C or MagSafe a better option overall?\n<a href=\"https://www.engadget.com/2252867/usb-c-vs-magsafe-best-macbook-charging-option/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
       "reactions": {},
-      "post_at": "2026-08-30T11:11:16.096054+00:00",
-      "posted": true
+      "post_at": "2026-09-14T16:48:53.154385+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1076266/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1076266",
-      "title": "Эволюция таблички в отчёте: от сводной Excel к полной картине строительного проекта",
-      "log_title": "Эволюция таблички в отчёте: от сводной Excel к полной картине строительного проекта",
+      "link": "https://habr.com/ru/articles/1079358/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079358",
+      "title": "Реальные истории IT-найма 2026",
+      "log_title": "Реальные истории IT-найма 2026",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1076266/9b0a8436024bcbe4f7edb871cd5d3178/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Эволюция таблички в отчёте: от сводной Excel к полной картине строительного проекта</b>\nТот, кто готовится к квартальному комитету, меньше всего хочет слышать адресованный лично вопрос: «Что изменилось в деньгах после твоего управления?» или в духе: «Какой эффект личн…\n<a href=\"https://habr.com/ru/articles/1076266/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1076266\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1079358/b629e3631c69ea65971271295906ef99/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Реальные истории IT-найма 2026</b>\nПривет, Хабр! (И тебе, IT-шник, который хочет узнать, что вообще происходит с наймом в 2026. Сейчас разберёмся, но легче тебе от этого не станет).Две статьи с аналитикой позади (ра…\n<a href=\"https://habr.com/ru/articles/1079358/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1079358\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-08-30T16:26:25.379772+00:00",
-      "posted": true
-    },
-    {
-      "category": "💰 Крипта",
-      "link": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "Polygon discloses security flaws fixed in recent hard forks",
-      "log_title": "Polygon discloses security flaws fixed in recent hard forks",
-      "source": "Cointelegraph.com News",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M17JHBKVPG032T0G1E4PGVX3/hi-quadrigacx-ceo-died-what-next.png",
-      "caption": "<b>💰 Крипта</b>\n<b>Polygon discloses security flaws fixed in recent hard forks</b>\nThe vulnerabilities posed denial-of-service and validator resource risks but were patched before Polygon publicly disclosed them.\n<a href=\"https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
-      "reactions": {},
-      "post_at": "2026-08-30T20:39:18.113757+00:00",
-      "posted": true
+      "post_at": "2026-09-14T20:03:54.666014+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
