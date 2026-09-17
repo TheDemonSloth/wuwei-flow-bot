@@ -47,10 +47,10 @@
       "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Не хватает RAM для пакетов на роутере? Поставьте их на мини-сервер из старого смартфона</b>\nВ предыдущей статье о моей домашней сети я рассказал об использовании локального агента для её настройки и поднятия разных интересных сервисов.Однако почти сразу я столкнулся с тем…\n<a href=\"https://habr.com/ru/articles/1080542/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1080542\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
       "post_at": "2026-09-17T17:05:51.896514+00:00",
-      "posted": false
+      "posted": true
     }
   ],
-  "history_posted": false,
-  "footer_posted": false,
+  "history_posted": true,
+  "footer_posted": true,
   "monthly_sent": false
 }
