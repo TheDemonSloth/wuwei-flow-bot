@@ -1,56 +1,56 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-20",
   "items": [
     {
-      "category": "🔓 Блокировки, VPN, приватность",
-      "link": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
-      "title": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
-      "log_title": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
-      "source": "The Record from Recorded Future News",
-      "image": "http://cms.therecord.media/uploads/brett_guthrie_20260910_733d486e27.png",
-      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Key lawmaker suggests action on AI safety legislation will wait until 2027</b>\n“It&#x27;s really complicated, and I wouldn&#x27;t want to do something in a lame duck session to do it quickly and not get it right,” said House Energy and Commerce Chairman Brett Guthrie a…\n<a href=\"https://therecord.media/frontier-act-ai-bill-house-brett-guthrie\">Читать →</a> · <i>The Record from Recorded Future News</i>",
-      "reactions": {},
-      "post_at": "2026-09-17T06:07:40.832485+00:00",
-      "posted": true
-    },
-    {
       "category": "💻 IT-новости",
-      "link": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
-      "log_title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "log_title": "Flock reportedly tries to shrink workforce with employee buyouts",
       "source": "TechCrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Treble-Physical-AI-PR-image_no-brand-1.jpeg?resize=1200,670",
-      "caption": "<b>💻 IT-новости</b>\n<b>Iceland-based Treble raises $18 million for its voice simulation platform</b>\nTreble&#x27;s voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies\n<a href=\"https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/\">Читать →</a> · <i>TechCrunch</i>",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/flock-protest.jpg?resize=1131,1200",
+      "caption": "<b>💻 IT-новости</b>\n<b>Flock reportedly tries to shrink workforce with employee buyouts</b>\nWithout buyouts, Flock would &quot;almost certainly&quot; need to lay off staff.\n<a href=\"https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/\">Читать →</a> · <i>TechCrunch</i>",
       "reactions": {},
-      "post_at": "2026-09-17T09:18:17.703600+00:00",
-      "posted": true
+      "post_at": "2026-09-20T06:12:27.541907+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie",
-      "title": "The streamers are fighting over Halloween",
-      "log_title": "The streamers are fighting over Halloween",
-      "source": "The Verge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/NUP_211117_00013_RF-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C1.8369937218105%2C100%2C96.326012556379&amp;w=1200",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>The streamers are fighting over Halloween</b>\nThe Toronto International Film Festival is a place to go to see the future of film, but this year it also provided a glimpse at what is coming very soon in the realm of streaming. …\n<a href=\"https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie\">Читать →</a> · <i>The Verge</i>",
+      "link": "https://www.engadget.com/2259220/how-long-old-cassette-tapes-last-lifespan/",
+      "title": "How long can you expect your old cassette tapes to last?",
+      "log_title": "How long can you expect your old cassette tapes to last?",
+      "source": "Engadget - Technology News & Expert Reviews",
+      "image": "https://www.engadget.com/img/gallery/how-long-can-you-expect-your-old-cassette-tapes-to-last/l-intro-1789054447.jpg",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>How long can you expect your old cassette tapes to last?</b>\nControlling the environmental conditions where your tapes are stored is key to their longevity.\n<a href=\"https://www.engadget.com/2259220/how-long-old-cassette-tapes-last-lifespan/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
       "reactions": {},
-      "post_at": "2026-09-17T13:15:04.242040+00:00",
-      "posted": true
+      "post_at": "2026-09-20T11:26:26.338455+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1080542/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1080542",
-      "title": "Не хватает RAM для пакетов на роутере? Поставьте их на мини-сервер из старого смартфона",
-      "log_title": "Не хватает RAM для пакетов на роутере? Поставьте их на мини-сервер из старого смартфона",
+      "link": "https://habr.com/ru/articles/1084174/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084174",
+      "title": "Мониторинг Умного Дома и его окружения телефоном без интернета. Android, Termux и открытая система автоматизации",
+      "log_title": "Мониторинг Умного Дома и его окружения телефоном без интернета. Android, Termux и открытая система автоматизации",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1080542/cb04b50c38b57e8479b63d4cb83ffa73/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Не хватает RAM для пакетов на роутере? Поставьте их на мини-сервер из старого смартфона</b>\nВ предыдущей статье о моей домашней сети я рассказал об использовании локального агента для её настройки и поднятия разных интересных сервисов.Однако почти сразу я столкнулся с тем…\n<a href=\"https://habr.com/ru/articles/1080542/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1080542\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1084174/4349bd59634550ce70d44a51b3bf2147/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Мониторинг Умного Дома и его окружения телефоном без интернета. Android, Termux и открытая система автоматизации</b>\nВ этой публикации рассмотрим контроль открытой системы «Умный дом» независимым от системы устройством - простым смартфоном, используя функции, для которых и изначально создавался  …\n<a href=\"https://habr.com/ru/articles/1084174/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1084174\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-09-17T17:05:51.896514+00:00",
-      "posted": true
+      "post_at": "2026-09-20T15:32:39.465478+00:00",
+      "posted": false
+    },
+    {
+      "category": "💰 Крипта",
+      "link": "https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
+      "log_title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
+      "source": "Cointelegraph.com News",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2XGSZRWWBGCWVGM11DRCASK/hi-token-etf-victory.png",
+      "caption": "<b>💰 Крипта</b>\n<b>REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive</b>\nThe new ASSX fund offers 2x daily exposure to Strive shares, giving traders a leveraged way to bet on the Bitcoin treasury company.\n<a href=\"https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
+      "reactions": {},
+      "post_at": "2026-09-20T21:10:22.268134+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
