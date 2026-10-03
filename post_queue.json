@@ -47,10 +47,10 @@
       "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Opus 5.5, Fable 5.1, GPT-6, DeepSeek и Grok: цены и скорость</b>\nЗа пять недель вышли Claude Fable 5.1, Opus 5.5 и Sonnet 5.5, GPT-6 Astra, Sol, Luna и GPT-6.1 Sol, Grok 4.7 и DeepSeek V4.1 Flash. Свёл в одну статью прейскуранты API и подписок, …\n<a href=\"https://habr.com/ru/articles/1089836/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1089836\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
       "post_at": "2026-10-03T17:08:37.477812+00:00",
-      "posted": false
+      "posted": true
     }
   ],
-  "history_posted": false,
-  "footer_posted": false,
+  "history_posted": true,
+  "footer_posted": true,
   "monthly_sent": false
 }
