@@ -1,56 +1,56 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-19",
   "items": [
     {
-      "category": "🔓 Блокировки, VPN, приватность",
-      "link": "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists",
-      "title": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
-      "log_title": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
-      "source": "The Record from Recorded Future News",
-      "image": "http://cms.therecord.media/uploads/markus_spiske_Qs_OEYV_Zv_Ui_I_unsplash2_77e8e56e44.jpg",
-      "caption": "<b>🔓 Блокировки, VPN, приватность</b>\n<b>Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus</b>\nThe plaintiffs, who all worked for the independent and Salvadoran news outlet El Faro, failed to convince the court that their case had jurisdiction in California, according to the…\n<a href=\"https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists\">Читать →</a> · <i>The Record from Recorded Future News</i>",
-      "reactions": {},
-      "post_at": "2026-10-03T06:29:18.019931+00:00",
-      "posted": true
-    },
-    {
       "category": "💻 IT-новости",
-      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-      "title": "Meta wants your next gadget to be Muse-infused",
-      "log_title": "Meta wants your next gadget to be Muse-infused",
+      "link": "https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
+      "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
+      "log_title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
       "source": "TechCrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
-      "caption": "<b>💻 IT-новости</b>\n<b>Meta wants your next gadget to be Muse-infused</b>\nMeta wants Muse in your TV and your toaster, so it&#x27;s giving the code away for free.\n<a href=\"https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/\">Читать →</a> · <i>TechCrunch</i>",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Benchmark2.jpg?w=799",
+      "caption": "<b>💻 IT-новости</b>\n<b>No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market</b>\nBenchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most stor…\n<a href=\"https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/\">Читать →</a> · <i>TechCrunch</i>",
       "reactions": {},
-      "post_at": "2026-10-03T10:39:43.536521+00:00",
-      "posted": true
+      "post_at": "2026-10-19T06:10:35.987929+00:00",
+      "posted": false
     },
     {
       "category": "📱 Новинки техники и гаджеты",
-      "link": "https://www.engadget.com/2276489/apple-att-network-bug-iphone-18-pro-max/",
-      "title": "Apple acknowledges AT&T network bug on iPhone 18 Pro Max",
-      "log_title": "Apple acknowledges AT&T network bug on iPhone 18 Pro Max",
+      "link": "https://www.engadget.com/2287059/netgear-router-lights-what-they-mean/",
+      "title": "What do all the lights on your Netgear router mean, and which ones actually matter?",
+      "log_title": "What do all the lights on your Netgear router mean, and which ones actually matter?",
       "source": "Engadget - Technology News & Expert Reviews",
-      "image": "https://www.engadget.com/img/gallery/apple-acknowledges-att-network-bug-on-iphone-18-pro-max/l-intro-1790992714.jpg",
-      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>Apple acknowledges AT&amp;T network bug on iPhone 18 Pro Max</b>\nExperiencing SOS mode on your iPhone 18 Pro Max with AT&amp;T? Apple confirms a hardware issue and details who needs a replacement.\n<a href=\"https://www.engadget.com/2276489/apple-att-network-bug-iphone-18-pro-max/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
+      "image": "https://www.engadget.com/img/gallery/what-do-all-the-lights-on-your-netgear-router-mean-and-which-ones-actually-matter/l-intro-1792009377.jpg",
+      "caption": "<b>📱 Новинки техники и гаджеты</b>\n<b>What do all the lights on your Netgear router mean, and which ones actually matter?</b>\nSome router symbols are obvious, while others take a bit of work to decipher. Their lights can vary, too.\n<a href=\"https://www.engadget.com/2287059/netgear-router-lights-what-they-mean/\">Читать →</a> · <i>Engadget - Technology News &amp; Expert Reviews</i>",
       "reactions": {},
-      "post_at": "2026-10-03T13:51:38.171535+00:00",
-      "posted": true
+      "post_at": "2026-10-19T12:10:29.160156+00:00",
+      "posted": false
     },
     {
       "category": "🇷🇺 Российские IT-новости",
-      "link": "https://habr.com/ru/articles/1089836/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1089836",
-      "title": "Opus 5.5, Fable 5.1, GPT-6, DeepSeek и Grok: цены и скорость",
-      "log_title": "Opus 5.5, Fable 5.1, GPT-6, DeepSeek и Grok: цены и скорость",
+      "link": "https://habr.com/ru/companies/usetech/articles/1095920/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095920",
+      "title": "Swift на Android: путь к сингулярности. От анонса SwiftJava до полноценного приложения",
+      "log_title": "Swift на Android: путь к сингулярности. От анонса SwiftJava до полноценного приложения",
       "source": "Все публикации подряд на Хабре",
-      "image": "https://habr.com/share/publication/1089836/391a016844ebbe7f1b60ab3602597410/",
-      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Opus 5.5, Fable 5.1, GPT-6, DeepSeek и Grok: цены и скорость</b>\nЗа пять недель вышли Claude Fable 5.1, Opus 5.5 и Sonnet 5.5, GPT-6 Astra, Sol, Luna и GPT-6.1 Sol, Grok 4.7 и DeepSeek V4.1 Flash. Свёл в одну статью прейскуранты API и подписок, …\n<a href=\"https://habr.com/ru/articles/1089836/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1089836\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
+      "image": "https://habr.com/share/publication/1095920/d7afffc4417c0ade729b1024f64ac669/",
+      "caption": "<b>🇷🇺 Российские IT-новости</b>\n<b>Swift на Android: путь к сингулярности. От анонса SwiftJava до полноценного приложения</b>\nВсем привет! С вами Анна Жаркова, руководитель практики мобильной разработки ГК Юзтех, автор книги «Kotlin Multiplatform на практике» (покупайте мою книгу) и человек, который уже к…\n<a href=\"https://habr.com/ru/companies/usetech/articles/1095920/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095920\">Читать →</a> · <i>Все публикации подряд на Хабре</i>",
       "reactions": {},
-      "post_at": "2026-10-03T17:08:37.477812+00:00",
-      "posted": true
+      "post_at": "2026-10-19T17:03:45.019484+00:00",
+      "posted": false
+    },
+    {
+      "category": "💰 Крипта",
+      "link": "https://cointelegraph.com/news/zoom-proof-of-human-badges-world-id-ai-deepfakes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Zoom adds ‘proof of human’ badges to show you’re not a deepfake",
+      "log_title": "Zoom adds ‘proof of human’ badges to show you’re not a deepfake",
+      "source": "Cointelegraph.com News",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M59B8YTZZ7CK80RS5T00W25K/cia2-1.jpg",
+      "caption": "<b>💰 Крипта</b>\n<b>Zoom adds ‘proof of human’ badges to show you’re not a deepfake</b>\nSam Altman-backed World has rolled out biometric verification badges for Zoom enterprise users, aiming to combat AI deepfake impersonation and fraud.\n<a href=\"https://cointelegraph.com/news/zoom-proof-of-human-badges-world-id-ai-deepfakes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound\">Читать →</a> · <i>Cointelegraph.com News</i>",
+      "reactions": {},
+      "post_at": "2026-10-19T22:43:52.946728+00:00",
+      "posted": false
     }
   ],
-  "history_posted": true,
-  "footer_posted": true,
+  "history_posted": false,
+  "footer_posted": false,
   "monthly_sent": false
 }
